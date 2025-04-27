@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .profile {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile img {
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .profile h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin: 15px 0;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav a:hover {
+    color: #007BFF;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 40px;
+  }
