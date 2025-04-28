@@ -157,9 +157,74 @@
     margin-bottom: 15px;
     font-weight: 500;
   }
+
+  .big-text {
+    font-size: 50px;
+  }
   
   p, li {
     font-size: 0.95em;
     margin-bottom: 8px;
     line-height: 1.5;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .divider {
+      display: none;
+    }
+  
+    .sidebar {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 10px;
+    }
+  
+    .content {
+      padding: 20px;
+    }
+  }
+
+  a {
+    color: #333; /* Blue color for normal links */
+    text-decoration: none; /* Removes underline (optional) */
+  }
+  
+  a:hover {
+    color: #ff7700; /* Darker blue on hover */
+    text-decoration: underline; /* Add underline when hovering (optional) */
+  }
+
+  /* Projects section */
+#projects {
+    margin-top: 50px;
+  }
+  
+  .project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .project-image {
+    width: 150px; /* Adjust size of project images */
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 0px; /* Optional: slight rounding for nicer look */
+  }
+  
+  .project-info h2 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+  }
+  
+  .project-info p {
+    font-size: 0.95em;
+    color: #555;
   }
