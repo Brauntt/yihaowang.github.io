@@ -46,7 +46,7 @@
       <section id="about">
         <h1><em>About Me</em></h1>
         <p>
-            I am currently a Software Engineer at Expedia Group. Prior to joining Expedia, I earned a Master’s degree in Electrical and Computer Engineering from Carnegie Mellon University, where I was advised by <a href="https://www.davidlindlbauer.com/" target="_blank">Professor David Lindlbauer</a> and focused on <em><span style="color: #ff7700;">virtual reality</span></em>, <em><span style="color: #ff7700;">augmented reality</span></em>, and <em><span style="color: #ff7700;">deep learning</span></em>. I also hold a Master’s degree in Communications and Signal Processing from Imperial College London, where I worked closely with <a href="https://profiles.imperial.ac.uk/christos-savvas.bouganis" target="_blank">Professor Christos-Savvas Bouganis</a> on image processing. Additionally, I obtained a Bachelor's degree in Electrical Engineering through joint studies at the University of Birmingham and the University of Electronic Science and Technology of China.
+            I am currently a Software Engineer at Expedia Group, working on the search orchestration service which empoweres search engine for all Expedia brands. Prior to joining Expedia, I earned a Master’s degree in Electrical and Computer Engineering from Carnegie Mellon University, where I was advised by <a href="https://www.davidlindlbauer.com/" target="_blank">Professor David Lindlbauer</a> and focused on <em><span style="color: #ff7700;">virtual reality</span></em>, <em><span style="color: #ff7700;">augmented reality</span></em>, and <em><span style="color: #ff7700;">deep learning</span></em>. I also hold a Master’s degree in Communications and Signal Processing from Imperial College London, where I worked closely with <a href="https://profiles.imperial.ac.uk/christos-savvas.bouganis" target="_blank">Professor Christos-Savvas Bouganis</a> on image processing. Additionally, I obtained a Bachelor's degree in Electrical Engineering through joint studies at the University of Birmingham and the University of Electronic Science and Technology of China.
           </p>
           
           <p>
@@ -58,7 +58,7 @@
         <h1><em>Research Interests</em></h1>
         <p>
             <span class="big-text">&ldquo;</span>
-        <p>I am fascinated by the interaction between humans and technology. With a broad background in software engineering, deep learning, and mixed reality, I have developed a growing curiosity about how algorithms drive improvements and how machines and humans interact in increasingly complex ways. I am particularly interested in studying how advancements in software and hardware can enhance user experiences in both the physical and digital worlds.</p>
+        <p>	I have a broad background in software engineering, electrical engineering, and machine learning. During my time at CMU, I had the opportunity to explore human-computer interaction in depth. After spending three years in the industry, I developed a strong interest in applying what I’ve learned to bridge the gap between technology and its users. While we have witnessed significant advancements in algorithms, applications, and devices, it remains essential to understand how these developments can meaningfully enhance individuals’ quality of life.</p>
         </p>
         <p>
             I am actively seeking Ph.D. opportunities in Human-Computer Interaction and Virtual Reality, beginning in <strong>Fall 2026</strong>.
@@ -68,53 +68,87 @@
       </section>
       <section id="projects">
         <h1><em>Selected Projects</em></h1>
-      
+        
         <div class="project">
-          <img src="images/MultiAgentDemo.jpeg" alt="Project 1 Image" class="project-image" />
+          <div class="project-image-wrapper">
+            <img src="images/MultiAgentDemo.jpeg" alt="Project 1 Image" class="project-image" />
+            <div class="project-links">
+              <a href="https://youtu.be/Xx4U6ZL-Q4c" target="_blank">Demo</a>
+            </div>
+          </div>
           <div class="project-info">
             <h2>Multi-participant Interaction in Virtual Reality and Motion Sensing</h2>
-            <p>Implemented a multi-participant application using C# with Unity and Photon and applied on Oculus Quest 2. <a href="https://youtu.be/Xx4U6ZL-Q4c" target="_blank">Here</a> is the demo video.</p>
+            <p>	Developed a multi-user virtual reality application using C# in Unity and Photon, deployed on the Oculus Quest 2. The project aims to simulate ECMO surgery training in a collaborative VR environment, providing an effective alternative when physical equipment is limited.</p>
           </div>
         </div>
-      
+
         <div class="project">
-          <img src="images/vehicle.jpg" alt="Project 2 Image" class="project-image" />
+          <div class="project-image-wrapper">
+            <img src="images/vehicle.jpg" alt="Project 2 Image" class="project-image" />
+            <div class="project-links">
+              <a href="reports/Intelligent Wire Tracking Vehicle.pdf" target="_blank">PDF</a>
+            </div>
+          </div>
           <div class="project-info">
             <h2>Intelligent Wire Tracking Vehicle</h2>
-            <p>Built an amplifying circuit with SSM 2019. Realized analog signal collection and digital signals conversion and
-                processing with a quadrature filter installed by PIC. Controlled wheel speed by PWM wave ratio.</p>
+            <p>	Built an amplifying circuit with SSM 2019. Realized analog signal collection and digital signals conversion and
+              processing with a quadrature filter installed by PIC 18F27K40. Controlled wheel speed by PWM wave ratio.</p>
           </div>
         </div>
-        <div class="project">
+       <div class="project">
+          <div class="project-image-wrapper">
             <img src="images/AutomaticTranscriptionSystem.jpg" alt="Project 3 Image" class="project-image" />
-            <div class="project-info">
-              <h2>Automatic Transcription of Ornamented Irish Flute Music</h2>
-              <p>Altered the CNN baseline model to fit flute music and improved the accuracy by transfer learning.</p>
+            <div class="project-links">
+              <a href="reports/Automatic_Transcription_of_Ornamented_Irish_Flute_Music_review.pdf" target="_blank">PDF</a>
             </div>
           </div>
-          <div class="project">
-            <img src="images/AdversarialAttack.jpg" alt="Project 3 Image" class="project-image" />
-            <div class="project-info">
-              <h2>Black-box Adversarial Attacks for Quantized Image Classifier</h2>
-              <p>Developed a Dense One-pixel attack method using Python and TensorFlow and Differential Evolution algorithm to attack image classifiers. Increased the attack success rate by 13%; Designed metric calibration and identified a new method that improved query efficiency by 53%.</p>
+          <div class="project-info">
+            <h2>Automatic Transcription of Ornamented Irish Flute Music</h2>
+            <p>		Unlike traditional spectral domain approaches that rely on signal energy, we modified the baseline CNN model to better accommodate the characteristics of flute music, achieving a 30% improvement in accuracy. Additionally, to address the limitations of a small training dataset, we applied transfer learning techniques, which further improved accuracy by 0.5%.</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-image-wrapper">
+            <img src="images/AdversarialAttack.jpg" alt="Project 4 Image" class="project-image" />
+            <div class="project-links">
+              <a href="reports/Black_box_adversarial_attacks_for_quantized_image_classifiers-4.pdf" target="_blank">PDF</a>
             </div>
+          </div>
+          <div class="project-info">
+            <h2>Black-box Adversarial Attacks for Quantized Image Classifier</h2>
+            <p>Developed a Dense One-pixel attack method using Python and TensorFlow and Differential Evolution algorithm to attack image classifiers. Increased the attack success rate by 13%; Designed metric calibration and identified a new method that improved query efficiency by 53%.</p>
           </div>
       </section>
 
       <section id="work">
         <h1><em>Work Experience</em></h1>
         <ul>
-          <li><strong>Software Engineer</strong> Search Relevance Team Dec, 2022 - Dec, 2024</li>
-          <ul>
-            <li>Led core system enhancements including personalization SDK integration, deprecation of legacy services, and redesign of post-processing service calls to improve the independence and efficiency of Expedia’s ranking systems; served as primary point of contact for the final property-sorting service and collaborated closely with the Machine Learning team.</li>
-            <li>Spearheaded major cross-team migrations, collaborating with the Ads team to migrate auction functions (impacting $4.55M GP) and partnering with the ML Platform team to complete large-scale parity validation using PySpark.</li>
-            <li>Pioneered testing and operational frameworks, launching a shadow orchestrator for pre-production machine learning testing, delivering the post-processing service for Expedia and HCOM brands, creating the E2E debugging documentation (reviewed 1K+ times), and leading technical onboarding and knowledge sharing initiatives across the EG Search organization.</li>
-          </ul>
-          <li><strong>Software Engineer</strong> Search Orchestration Team Dec, 2024 - present</li>
-          <ul>
-            <li>I worked on the Search Orchestration team, maintaining distributed systems that enabled fast, reliable search experiences for Expedia.com, Hotels.com, and Vrbo.com. I focused on low-latency orchestration, infrastructure resilience, and system stability, and collaborated closely with PMs and TPMs to deliver critical search capabilities at scale.</li>
-          </ul>
+          <li>
+            <div class="job-header">
+              <strong>Software Engineer II</strong>
+              <span>Search Orchestration Team &nbsp;·&nbsp; Dec 2024 – Present</span>
+            </div>
+            <ul>
+              <li>
+                I worked on the Search Orchestration team, maintaining distributed systems that enabled fast, reliable search experiences for Expedia.com, Hotels.com, and Vrbo.com. I focused on low-latency orchestration, infrastructure resilience, and system stability, and collaborated closely with PMs and TPMs to deliver critical search capabilities at scale.
+              </li>
+            </ul>
+          </li>
         </ul>
+
+        <ul>
+          <li>
+            <div class="job-header">
+              <strong>Software Engineer I</strong>
+              <span>Search Relevance Team &nbsp;·&nbsp; Dec, 2022 – Dec, 2024</span>
+            </div>
+            <ul>
+              <li>Led core features including personalization SDK integration, deprecation of legacy services, and redesign of post-processing service calls to improve the efficiency of Expedia’s ranking systems; served as primary point of contact for the final property-sorting service and collaborated closely with the Machine Learning team.</li>
+              <li>Collaborated with the Ads team to migrate auction functions (impacting $4.55M GP) and partnering with the ML Platform team to complete large-scale parity validation using PySpark.</li>
+              <li>Launched a shadow orchestrator for pre-production machine learning testing, delivered the post-processing service for Expedia and HCOM brands, created the E2E debugging documentation (reviewed 1K+ times), and led technical onboarding and knowledge sharing initiatives across the EG Search organization.</li>
+            </ul>
+          </li>
       </section>
 
       <section id="Awards">

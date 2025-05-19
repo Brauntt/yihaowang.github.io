@@ -192,7 +192,7 @@
 
   a {
     color: #333; /* Blue color for normal links */
-    text-decoration: none; /* Removes underline (optional) */
+    text-decoration: underline; /* Removes underline (optional) */
   }
   
   a:hover {
@@ -218,6 +218,10 @@
     margin-right: 20px;
     border-radius: 0px; /* Optional: slight rounding for nicer look */
   }
+
+  .underline {
+    text-decoration: underline;
+  }
   
   .project-info h2 {
     font-size: 1.2em;
@@ -226,5 +230,38 @@
   
   .project-info p {
     font-size: 0.95em;
+    color: #555555;
+  }
+
+  .project-image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .project-links {
+    margin-top: 6px;
+    font-size: 0.8em;
     color: #555;
+    text-align: center;
+  }
+  
+  .project-links a {
+    color: #ff7700;
+    text-decoration: underline;
+    margin: 0 4px;
+  }
+  
+  .project-links a:hover {
+    text-decoration: underline;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+  }
+  .job-header strong {
+    font-weight: bold;
   }
